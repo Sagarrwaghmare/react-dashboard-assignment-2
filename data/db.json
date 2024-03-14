@@ -1,0 +1,176 @@
+{
+  "products": [
+    {
+      "name": "Gucci Belt",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      "brand": "Apple",
+      "size": "20",
+      "price": "100",
+      "id": "1"
+    },
+    {
+      "name": "iPhone X",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "brand": "Apple",
+      "size": "20",
+      "price": "200",
+      "id": "5172"
+    },
+    {
+      "name": "Samsung 9",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+      "brand": "Samsung",
+      "size": "10",
+      "price": "20",
+      "id": "a13c"
+    },
+    {
+      "name": "LAPTOP",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+      "brand": "SPARK",
+      "size": "2",
+      "price": "100",
+      "id": "5cdd"
+    },
+    {
+      "name": "Product 100",
+      "thumbnail": "NA",
+      "brand": "SHARK",
+      "size": "25",
+      "price": "2000",
+      "id": "a794"
+    },
+    {
+      "id": "2774",
+      "name": "ACER LAPTOP",
+      "size": "200",
+      "price": "2500",
+      "thumbnail": "NA",
+      "brand": "ACER"
+    },
+    {
+      "id": "68d5",
+      "name": "Realme Phone",
+      "size": "100",
+      "price": "500",
+      "thumbnail": "NA",
+      "brand": "Realme"
+    },
+    {
+      "id": "0f4b",
+      "name": "Realme Phone 2",
+      "size": "100",
+      "price": "500",
+      "thumbnail": "NA",
+      "brand": "Realme"
+    },
+    {
+      "id": "0b1e",
+      "name": "Realme Phone 3",
+      "size": "100",
+      "price": "500",
+      "thumbnail": "NA",
+      "brand": "Realme"
+    },
+    {
+      "id": "60b6",
+      "name": "Realme Phone 4",
+      "size": "100",
+      "price": "500",
+      "thumbnail": "NA",
+      "brand": "Realme"
+    }
+  ],
+  "orders": [
+    {
+      "name": "John Doe",
+      "date": "2024-03-16",
+      "status": "Cancel",
+      "productId": "1",
+      "productName": "Gucci Helmet",
+      "productPrice": "100",
+      "id": "1554"
+    },
+    {
+      "name": "Sagar Waghmare",
+      "date": "2024-03-30",
+      "status": "Pending",
+      "productId": "1",
+      "productName": "LAPTOP",
+      "productPrice": "PRICE",
+      "id": "3f4c"
+    },
+    {
+      "id": "1119",
+      "name": "Sagar 2",
+      "date": "2024-03-22",
+      "status": "Pending",
+      "productId": "a13c",
+      "productName": "Samsung 9",
+      "productPrice": "20"
+    },
+    {
+      "name": "Sahil Kumar",
+      "date": "2024-03-29",
+      "status": "Pending",
+      "productId": "a794",
+      "productName": "Product 100",
+      "productPrice": "2000",
+      "id": "4661"
+    },
+    {
+      "name": "Shubham Thakur",
+      "date": "2024-03-23",
+      "status": "Completed",
+      "productId": "5172",
+      "productName": "PRODUCT",
+      "productPrice": "PRICE",
+      "id": "5ea1"
+    },
+    {
+      "name": "Sahil Thakur",
+      "date": "2025-09-09",
+      "status": "Pending",
+      "productId": "a13c",
+      "productName": "PRODUCT",
+      "productPrice": "PRICE",
+      "id": "b328"
+    },
+    {
+      "name": "Jack Johnson",
+      "date": "2024-09-09",
+      "status": "Pending",
+      "productId": "a13c",
+      "productName": "Samsung 9",
+      "productPrice": "20",
+      "id": "d956"
+    },
+    {
+      "id": "ddeb",
+      "name": "John Jackson",
+      "date": "2025-02-04",
+      "status": "Pending",
+      "productId": "a13c",
+      "productName": "Samsung 9",
+      "productPrice": "20"
+    },
+    {
+      "id": "e933",
+      "name": "John Jackson",
+      "date": "2025-02-04",
+      "status": "Pending",
+      "productId": "5172",
+      "productName": "iPhone X",
+      "productPrice": "200"
+    },
+    {
+      "id": "e03d",
+      "name": "John Jackson",
+      "date": "2025-02-04",
+      "status": "Pending",
+      "productId": "5cdd",
+      "productName": "LAPTOP",
+      "productPrice": "100"
+    }
+  ]
+}

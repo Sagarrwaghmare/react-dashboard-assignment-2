@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css"; */
+
+
+::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+*{
+    /* outline:2px solid red; */
+}
+body{
+    background-color: #121212;
+    color:white;
+}
+
+
+.mainsection{
+    min-height: 100vh;
+}
+
+
+table{
+    /* height: 10px; */
+    overflow: auto;
+}
+
+/* ::-webkit-scrollbar{
+    overflow-y: hidden;
+} */
+
+
+.updateModalProduct{    
+    background:rgba(11, 11, 11, 0.653);;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateModalContent{
+
+    background:rgb(35, 35, 35);
+    top: 0px;
+}
+
+.tableContainer{
+    
+    min-width: 320px;
+    max-height: 400px;
+
+    overflow:auto;
+}
+
+
+
+
+/* LOADING ANIMATION */
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #545454 transparent #545454 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
