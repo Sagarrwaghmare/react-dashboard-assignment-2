@@ -13,13 +13,14 @@ Dependencies:
 
 Steps to run the app:
 1. run "npx create-react-app test-run"
+
 2. Clone this repo 
 3. COPY and REPLACE Content of repo to the react application
 4. run "npm run start" to run the application
 5. Install the dependencies: axios, react-router-dom, tailwindcss, json-server
 6. run "npm i axios" to install axios
 7. run "npm i react-router-dom" to install react-router
-8. INSTALL TAILWINDCSS from their website documentation(it is recommended to check their installation process as it's more clear)
+8. INSTALL TAILWINDCSS from their website documentation (it is recommended to check their installation process as it's more clear here: https://tailwindcss.com/docs/installation )
 9. run "npx tailwindcss init" to install tailwindcss
 10. Change the index.css and tailwindconfig file 
 11. npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch 
